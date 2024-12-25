@@ -9,8 +9,8 @@ function boxRadius(element) {
 function boxBorder(element) {
   $(element).css("border-style", "solid")
   $(element).css("border-color", `rgb(${randomNum(150,255)},${randomNum(150,255)},${randomNum(150,255)})`)
-  $(element).css("border-width", `${randomNum(0,6)}px ${randomNum(0,6)}px ${randomNum(0,6)}px ${randomNum(0,3)}px`)
-  $(element).css("transition", "1s")
+  $(element).css("border-width", `${randomNum(1,3)}px ${randomNum(0,5)}px ${randomNum(1,3)}px ${randomNum(0,5)}px`)
+  $(element).css("transition", "0.4s")
 }
 var randomBox = randomNum(0,8)
 function both(element) {
